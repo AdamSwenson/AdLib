@@ -1,0 +1,3 @@
+# Adam's Standard Library
+
+Tools that I use in lots of projects. Doubt you want these....
