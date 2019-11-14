@@ -12,7 +12,8 @@ def clearplot_function( ):
     Call in next cell after plot
     """
     try:
-        plt.close( plt.gcf( ) ); plt.close( 'all' )
+        plt.close( plt.gcf( ) )
+        plt.close( 'all' )
     except:
         pass
 
