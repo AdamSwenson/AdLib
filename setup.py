@@ -1,6 +1,9 @@
 """
 Created by adam on 11/11/19
 
+To run:
+	python setup.py upload
+
 
 Borrowed from https://github.com/kennethreitz/setup.py
 
@@ -19,17 +22,17 @@ from shutil import rmtree
 from setuptools import find_packages, setup, Command
 
 # Package meta-data.
-NAME = 'AdLib'
+NAME = 'AdamTools'
 DESCRIPTION = "My tool library. You probably don't want this"
 URL = 'https://github.com/AdamSwenson/AdLib'
 EMAIL = 'adam.swenson@csun.edu'
 AUTHOR = 'adam swenson'
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = '0.0.1'
+VERSION = '0.0.3'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
-'IPython'
+    # 'ipython==7.9.0'
 ]
 
 # What packages are optional?
